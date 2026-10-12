@@ -46,7 +46,7 @@ conditions = [
     (df["Tổng kết"] < 5.0),
 ]
 choices = ["Giỏi", "Khá", "Trung bình", "Yếu"]
-df["Xếp loại"] = np.select(conditions, choices)
+df["Xếp loại"] = np.select(conditions, choices, default="Yếu")
 
 # Làm tròn điểm
 df[["Chuyên cần", "Giữa kỳ", "Cuối kỳ", "Tổng kết"]] = df[
