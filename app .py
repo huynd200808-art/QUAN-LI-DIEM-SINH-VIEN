@@ -15,20 +15,20 @@ st.markdown("---")
 # Dữ liệu 10 sinh viên
 data = {
     "Họ tên": [
-        "Nguyễn Văn An",
-        "Trần Thị Bình",
-        "Lê Văn Chi",
-        "Phạm Thị Dung",
-        "Hoàng Văn Hà",
-        "Vũ Thị Lan",
-        "Đỗ Văn Minh",
-        "Bùi Thị Nam",
-        "Hồ Văn Phúc",
-        "Ngô Thị Trang",
+        " Nguyen Van A",
+        " Nguyen Van b",
+        " Nguyen Van c",
+        " Nguyen Van d",
+        " Nguyen Van e",
+        " Nguyen Van h",
+        " Nguyen Van f",
+        " Nguyen Van g",
+        " Nguyen Van s",
+        " Nguyen Van y",
     ],
-    "Chuyên cần": [8.0, 9.0, 7.0, 6.5, 10.0, 5.0, 8.5, 9.5, 4.0, 7.5],
-    "Giữa kỳ": [7.5, 8.0, 6.0, 7.0, 9.0, 4.5, 8.0, 8.5, 5.5, 6.5],
-    "Cuối kỳ": [8.0, 8.5, 6.5, 7.5, 9.5, 5.0, 7.5, 9.0, 4.5, 7.0],
+    "Chuyên cần": [8.0, 7.0, 6.0, 9.0, 9.0, 7.0, 5.0, 8.0, 6.0, 10.0],
+    "Giữa kỳ": [7.0, 8.0, 8.0, 7.0, 9.0, 8.0, 6.0, 6.0, 7.0, 8.0],
+    "Cuối kỳ": [8.0, 7.0, 7.0, 8.0, 8.0, 6.0, 6.0, 7.0, 7.0, 9.0],
 }
 
 df = pd.DataFrame(data)
