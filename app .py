@@ -134,7 +134,7 @@ st.pyplot(fig)
 st.markdown("---")
 
 # 9. Họ tên và MSSV ở cuối trang với chữ nhỏ
- st.markdown(
+st.markdown(
     "<div style='text-align: center; color: gray; font-size: 13px;'>"
     "Người thực hiện: Nguyễn Đức Huy — MSSV: [20]"
     "</div>",
